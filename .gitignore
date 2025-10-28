@@ -1,0 +1,25 @@
+# Python Virtual Environments
+# Ignora pastas de ambiente virtual comuns (venv e .venv)
+venv/
+.venv/
+env/
+.env/
+
+# Streamlit-specific files
+# Ignora a pasta de cache do Streamlit, que armazena dados para evitar recálculos
+.streamlit/cache/
+
+# Outros arquivos de cache e build comuns em Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Arquivos de log e bancos de dados SQLite (se não forem parte essencial do git)
+*.log
+*.sqlite
+/db.sqlite3
+
+# Arquivos de sistema operacional
+.DS_Store
+Thumbs.db
